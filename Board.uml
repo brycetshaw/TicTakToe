@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Board</OriginalElement>
+  <nodes>
+    <node x="42.52180555555556" y="567.0">Player</node>
+    <node x="143.25833333333333" y="150.0">Board</node>
+    <node x="64.9218055555555" y="1132.0">Game</node>
+    <node x="159.72694444444443" y="912.0">Referee</node>
+    <node x="0.0" y="0.0">Constants</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Game" target="Constants">
+      <point x="-111.11111111111106" y="-75.0" />
+      <point x="78.81069444444444" y="1112.0" />
+      <point x="21.021805555555545" y="1112.0" />
+      <point x="21.021805555555545" y="130.0" />
+      <point x="17.099999999999994" y="130.0" />
+      <point x="-68.4" y="50.0" />
+    </edge>
+    <edge source="Game" target="Referee">
+      <point x="55.55555555555557" y="-75.0" />
+      <point x="245.47736111111107" y="1092.0" />
+      <point x="308.06027777777774" y="1092.0" />
+      <point x="59.333333333333314" y="75.0" />
+    </edge>
+    <edge source="Player" target="Board">
+      <point x="76.0" y="-147.5" />
+      <point x="232.52180555555555" y="542.0" />
+      <point x="205.25833333333333" y="542.0" />
+      <point x="-62.0" y="183.5" />
+    </edge>
+    <edge source="Game" target="Player">
+      <point x="-27.777777777777743" y="-75.0" />
+      <point x="162.14402777777775" y="1082.0" />
+      <point x="117.97694444444443" y="1082.0" />
+      <point x="117.97694444444443" y="887.0" />
+      <point x="128.02180555555555" y="887.0" />
+      <point x="-28.5" y="147.5" />
+    </edge>
+    <edge source="Referee" target="Board">
+      <point x="22.25" y="-75.0" />
+      <point x="270.9769444444444" y="887.0" />
+      <point x="281.2736111111111" y="887.0" />
+      <point x="281.2736111111111" y="542.0" />
+      <point x="246.59166666666664" y="542.0" />
+      <point x="-20.666666666666686" y="183.5" />
+    </edge>
+    <edge source="Game" target="Board">
+      <point x="83.33333333333334" y="-75.0" />
+      <point x="273.25513888888884" y="1102.0" />
+      <point x="348.2269444444444" y="1102.0" />
+      <point x="348.2269444444444" y="542.0" />
+      <point x="329.2583333333333" y="542.0" />
+      <point x="62.0" y="183.5" />
+    </edge>
+    <edge source="Board" target="Constants">
+      <point x="62.0" y="-183.5" />
+      <point x="329.2583333333333" y="120.0" />
+      <point x="153.9" y="120.0" />
+      <point x="68.4" y="50.0" />
+    </edge>
+    <edge source="Player" target="Constants">
+      <point x="-76.0" y="-147.5" />
+      <point x="80.52180555555556" y="130.0" />
+      <point x="85.5" y="130.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Referee" target="Player">
+      <point x="-66.75" y="-75.0" />
+      <point x="181.97694444444443" y="887.0" />
+      <point x="185.02180555555555" y="887.0" />
+      <point x="28.5" y="147.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="114.0" y="207.0" />
+  <SelectedNodes>
+    <node>Board</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
